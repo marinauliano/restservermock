@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="TMSServerMock">
+		<property name="context-root" value="TMSServerMock"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.0.1/7ffdb02f95af1c1a208544e076cea5b8e66e731a/commons-io-2.0.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2/f951934aa5ae5a88d7e6dfaa6d32307d834a88be/commons-collections-3.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.1/697e3a1fa094a983cd12f7f6f61abf9c6ea52e2/gson-1.7.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.0.0.RC2/8467a7a8fc25281b35559f78f8433dbd3279c051/jetty-server-9.0.0.RC2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.0.0.RC2/8e62c62f192d74ac6d9df51df76a90c12823a5af/jetty-servlet-9.0.0.RC2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.0.0.RC2/7aa5481fb37a4eca7accde19c23a37a6128989a3/jetty-webapp-9.0.0.RC2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/asm/asm/3.3.1/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/javax.servlet/jstl/1.1.2/3375e43c620df4f1114959400ff9bb90d12a2feb/jstl-1.1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/aaaa85845fb5c59da00193f06b8e5278d8bf3f8/javax.servlet-3.0.0.v201112011016.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.0.0.RC2/ddccb33b96aa5577711bd7f63d5eb274da1d7ad/jetty-http-9.0.0.RC2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.0.0.RC2/58a0aba45cc3257653c4231e0eab6676138c2e7a/jetty-io-9.0.0.RC2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.0.0.RC2/a754ef43c23bb1ed8d509226b3b4a4bf17085e2b/jetty-security-9.0.0.RC2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.0.0.RC2/60c8c9f535d02e596d2450629b9aa5132bdb2ee2/jetty-xml-9.0.0.RC2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/marina.uliano/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.0.0.RC2/2be327c40b7e2fc5e527cff7568c7b1a43fb442d/jetty-util-9.0.0.RC2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

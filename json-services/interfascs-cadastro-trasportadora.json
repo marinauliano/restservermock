@@ -1,0 +1,16 @@
+{
+	"method": "GET",
+	"url": "/interfascs/saida/PagamentoFrete",
+	"timeToExecute": 5000,
+	"consume" : "false",
+	"defaultReturn": {"status" : "400", "body" : "parâmetros não compativeis ou os parâmetros estão vazios."},
+	"call" :
+		[{	
+				"params": {"a": "1", "b": "2"},
+				"body": {"result": "hello" }
+			},
+			{	
+				"params": {"a": "1", "b": "3"},
+				"body": {"result": "hello2" }
+		}]	
+}
