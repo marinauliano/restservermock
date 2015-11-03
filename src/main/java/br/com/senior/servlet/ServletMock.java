@@ -12,17 +12,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.eclipse.jetty.http.HttpHeader;
+
 import br.com.senior.parser.Call;
 import br.com.senior.parser.DefaultReturn;
 import br.com.senior.parser.ParserJsonServices;
 import br.com.senior.parser.Service;
 
-public class TMSServlet extends HttpServlet {
+public class ServletMock extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 	private ParserJsonServices parser;
 
-	public TMSServlet() {
+	public ServletMock() {
 		parser = new ParserJsonServices();
 		parser.loadServices();
 	}
@@ -84,6 +86,7 @@ public class TMSServlet extends HttpServlet {
 
 	private void writeInResponse(HttpServletResponse resp, int status, String response) throws IOException {
 		resp.setStatus(status);
+		resp.setContentType("application/json");
 		resp.getWriter().write(response);
 		resp.getWriter().flush();
 		resp.getWriter().close();

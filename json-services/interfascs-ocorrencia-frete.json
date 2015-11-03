@@ -1,0 +1,26 @@
+{
+	"method": "GET",
+	"url": "/interfacefis/saida/ocorrencia",
+	"timeToExecute": 0,
+	"consume" : "false",
+	"defaultReturn": {"status" : "400", "body" : "parâmetros não compativeis ou os parâmetros estão vazios."},
+	"call" :
+		[{	
+				"params": {},
+				"body":  "[
+					{
+						\"ped_cd_empresa\": \"1\",
+						\"ped_cd_cliente\": \"0\",
+						\"ped_nu_pedido_origem\": \"0\",
+						\"ped_cd_transportadora\": \"100\",
+						\"ped_nu_nota_fiscal\": \"1\",
+						\"ped_nu_serie_nf\": \"1A\",
+						\"oco_cd_motivo_retorno\": \"N\",
+						\"oco_ds_motivo_retorno\": \"teste 02\",
+						\"oco_dt_atualizacao\": \"23/10/2005 10:10:10\",
+						\"oco_id_finaliza_servico\": \"0\",
+						\"ped_dt_previsao_entrega\": \"\"
+					}					
+				]"
+		}]	
+}

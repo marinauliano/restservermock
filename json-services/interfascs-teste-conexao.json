@@ -1,0 +1,12 @@
+{
+	"method": "GET",
+	"url": "/interfacefis/teste/conexao",
+	"timeToExecute": 0,
+	"consume" : "false",
+	"defaultReturn": {"status" : "400", "body" : "parâmetros não compativeis ou os parâmetros estão vazios."},
+	"call" :
+		[{	
+				"params": {},
+				"body":  ""
+		}]	
+}

@@ -5,7 +5,7 @@ import java.util.Map;
 public class Call {
 
 	private Map<String, String> params;
-	private Map<String, String> body;
+	private String body;
 	private long lastExecution;
 
 	public Map<String, String> getParams() {
@@ -16,11 +16,11 @@ public class Call {
 		this.params = params;
 	}
 
-	public Map<String, String> getBody() {
+	public String getBody() {
 		return body;
 	}
 
-	public void setBody(Map<String, String> body) {
+	public void setBody(String body) {
 		this.body = body;
 	}
 
